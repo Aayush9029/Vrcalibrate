@@ -19,6 +19,17 @@ body {
     left: 1em;
 }
 
+.hovered-menu {
+    padding: 1em;
+    right: 1em;
+}
+
+.zoominout-menu {
+    padding: 1em;
+    bottom: 1em;
+    right: 1em;
+}
+
 button {
     background-repeat: no-repeat;
     background-position: center;
@@ -37,7 +48,8 @@ button {
 button {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.616);
     border-radius: 5px;
-    background-color: rgba(187, 199, 255, 0.349);
+    background-color: rgba(0, 0, 0, 0.349);
+    border: 0.1em solid rgba(255, 255, 255, 0.616);
     backdrop-filter: blur(5px);
 }
 
@@ -66,4 +78,20 @@ button:hover {
 .back-btn:hover {
     background-color: #7913ff7a;
     box-shadow: 0 0 2em rgba(255, 255, 255, 0);
+}
+
+#zoomin {
+    background-image: url(../icons/zoom_in_white_24dp.svg);
+}
+
+#zoomin:hover {
+    background-color: rgba(19, 113, 255, 0.5)
+}
+
+#zoomout {
+    background-image: url(../icons/zoom_out_white_24dp.svg);
+}
+
+#zoomout:hover {
+    background-color: rgba(19, 161, 255, 0.5)
 }

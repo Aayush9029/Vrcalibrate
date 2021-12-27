@@ -33,15 +33,16 @@ function mouseReleased() {
     loop();
 }
 
-
-function mouseWheel(event) {
-    if (event.delta > 0) {
-        fontSize += 10;
-    } else {
-        if (fontSize > 10) {
-
-            fontSize -= 10;
-        }
+function zoomOut() {
+    if (fontSize > 15) {
+        fontSize -= 10;
+        loop();
     }
-    loop();
+}
+
+function zoomIn() {
+    if (fontSize < 100) {
+        fontSize += 10;
+        loop();
+    }
 }
