@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../src/p5.min.js"></script>
+    <script src="./js/dots.js"></script>
+    <link rel="stylesheet" href="css/dots.css">
+    <title>Dots Calibration</title>
+</head>
+
+<body>
+
+    <div class="back-menu">
+        <button class="back-btn" onclick="location.href = '../'"></button>
+    </div>
+    <div class="hovered-menu">
+        <button id="shape-toggle" onclick="toggleShape()"></button>
+        <button id="color-toggle" onclick="toggleColor()"></button>
+        <button id="fill-toggle" onclick="toggleFill()"></button>
+        <button id="reset-btn" onclick="reset()"></button>
+    </div>
+
+    <div class="zoominout-menu">
+        <button id="zoomout" onclick="zoomOut()"></button>
+        <button id="zoomin" onclick="zoomIn()"></button>
+
+    </div>
+
+</body>
+
+</html>

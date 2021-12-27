@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: #000000;
+}
+
+.hovered-menu,
+.back-menu,
+.zoominout-menu {
+    position: absolute;
+}
+
+.back-menu {
+    padding-top: 1em;
+    left: 1em;
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fit-content;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    margin: 0.25em;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+button {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.616);
+    border-radius: 5px;
+    background-color: rgba(187, 199, 255, 0.349);
+    backdrop-filter: blur(5px);
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgb(255, 255, 255);
+    filter: blur(2px);
+    margin: -20px;
+}
+
+button:hover {
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
+}
+
+.back-btn {
+    background-image: url(../icons/arrow_back_ios_white_24dp.svg);
+}
+
+.back-btn:hover {
+    background-color: #7913ff7a;
+    box-shadow: 0 0 2em rgba(255, 255, 255, 0);
+}
