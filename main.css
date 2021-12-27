@@ -48,3 +48,25 @@ a:hover {
     transform: translateY(-2em);
     scale: 1.05;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.24);
+    padding: 1em;
+}
+
+button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.342);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
