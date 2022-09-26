@@ -1,4 +1,4 @@
-# [bit.ly/vrcalibrate](https://bit.ly/vrcalibrate)
+# [bit.ly/vcbt](https://bit.ly/vcbt)
 
 Check your lens adjustment and clarity!
 
